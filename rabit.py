@@ -1,0 +1,6 @@
+head=int(input("Enter the total no of head : "))
+leg=int(input("Enter the total no of legs : "))
+rabbit=(leg//2-head)
+hen=2*head-(leg//2)
+print("no of rabbit : ",rabbit)
+print("Total no of hen : ",hen)

@@ -1,0 +1,11 @@
+x=input("Enter the string : ")
+n=int(x)
+l=len(x)
+print(l)
+lst=n%10
+print(lst)
+fst=n//((10)**(l-1))
+print(fst)
+swap=str(lst)+x[1:l-1]+str(fst)
+sawp=int(swap)
+print("Swapped no. is : ",swap)
